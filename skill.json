@@ -1,0 +1,33 @@
+{
+  "name": "genpark-complex-financial-formula-audit-validator-skill",
+  "version": "1.0.0",
+  "description": "Mathematical consistency and formula balancing auditor for extracted balance sheets, income statements, and cash flow reports.",
+  "category": "Service",
+  "author": "AlphaPark",
+  "tags": [
+    "financial-audit",
+    "accounting-validation",
+    "balance-sheet",
+    "pnl-checker",
+    "zero-dependency",
+    "mcp"
+  ],
+  "tools": [
+    {
+      "name": "audit_balance_sheet",
+      "description": "Verify Assets = Liabilities + Stockholders' Equity with tolerance bounds."
+    },
+    {
+      "name": "audit_income_statement",
+      "description": "Check Gross Profit, Operating Income, and Net Income accounting identities."
+    },
+    {
+      "name": "audit_cross_footing",
+      "description": "Validate 2D matrix row and column sums for cross-footing arithmetic errors."
+    },
+    {
+      "name": "run_benchmark_financial_audit",
+      "description": "Run deterministic financial formula audit test suite."
+    }
+  ]
+}
