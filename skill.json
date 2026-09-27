@@ -1,7 +1,7 @@
 {
   "name": "genpark-complex-financial-formula-audit-validator-skill",
-  "version": "1.0.0",
-  "description": "Mathematical consistency and formula balancing auditor for extracted balance sheets, income statements, and cash flow reports.",
+  "version": "1.0.1",
+  "description": "Arithmetic consistency checks for supplied financial statement data.",
   "category": "Service",
   "author": "AlphaPark",
   "tags": [

@@ -1,7 +1,7 @@
 __pycache__/
 *.py[cod]
-.env
+*.egg-info/
+build/
+dist/
 .venv/
-venv/
-*.log
-.DS_Store
+.mcpregistry_*

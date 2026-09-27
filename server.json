@@ -1,0 +1,21 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.Alpha-Park/genpark-financial-audit",
+  "title": "genpark-financial-audit",
+  "description": "Arithmetic consistency checks for supplied financial statement data.",
+  "version": "1.0.1",
+  "repository": {
+    "url": "https://github.com/Alpha-Park/genpark-complex-financial-formula-audit-validator-skill",
+    "source": "github"
+  },
+  "packages": [
+    {
+      "registryType": "mcpb",
+      "identifier": "https://github.com/Alpha-Park/genpark-complex-financial-formula-audit-validator-skill/releases/download/v1.0.1/genpark-financial-audit.mcpb",
+      "fileSha256": "873fa3188d4911932f568dfb844185c0b260e7dbef2acb67740072c0c2b4b098",
+      "transport": {
+        "type": "stdio"
+      }
+    }
+  ]
+}
