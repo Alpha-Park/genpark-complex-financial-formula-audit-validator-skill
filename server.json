@@ -12,7 +12,7 @@
     {
       "registryType": "mcpb",
       "identifier": "https://github.com/Alpha-Park/genpark-complex-financial-formula-audit-validator-skill/releases/download/v1.0.1/genpark-financial-audit.mcpb",
-      "fileSha256": "873fa3188d4911932f568dfb844185c0b260e7dbef2acb67740072c0c2b4b098",
+      "fileSha256": "6da7dd84b00df4269df658e4b3df3869cba5ea9d6fed4657c78ef6afca1406ac",
       "transport": {
         "type": "stdio"
       }
