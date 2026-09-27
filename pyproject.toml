@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "genpark-financial-validator"
+version = "1.0.0"
+description = "Mathematical accounting formula consistency and balance-sheet footing auditor."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [
+  { name = "GenPark AI Engineering", email = "engineering@genpark.ai" }
+]
+keywords = ["ai-agent", "mcp", "model-context-protocol", "zero-dependency", "python"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+  "Topic :: Scientific/Engineering :: Artificial Intelligence"
+]
+dependencies = []
+
+[project.urls]
+"Homepage" = "https://genpark.ai/mcp"
+"Repository" = "https://github.com/Alpha-Park/genpark-complex-financial-formula-audit-validator-skill"
+"Documentation" = "https://github.com/Alpha-Park/genpark-complex-financial-formula-audit-validator-skill#readme"
+"Bug Tracker" = "https://github.com/Alpha-Park/genpark-complex-financial-formula-audit-validator-skill/issues"
+
+[project.scripts]
+genpark-financial-validator = "client:main"
